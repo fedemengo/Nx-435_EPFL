@@ -1,0 +1,14 @@
+Experiment: Experiment97
+Subject: Subject1
+User: User1
+Date: 04/26/2018
+Time: 12:09:56pm
+
+ObjectID: NPro1 - Neural Stream Processor
+ StoreID: EEG1
+
+
+Flat Listing:
+StoreID  Gizmo/Hal
+EEG1     NPro1
+

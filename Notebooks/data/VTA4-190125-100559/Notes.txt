@@ -1,0 +1,8 @@
+Experiment: FastedSucrose1
+Subject: VTA4
+User: ChrisMorrison
+Start: 10:06:02am 2019-01-25
+
+Note-1: 10:07:00am [none] "Bottle In"
+
+Stop: 10:19:08am 2019-01-25

@@ -22,7 +22,7 @@ def emg_process_loop(
         data = read_arduino(ser, inputBufferSize)
         processed = process_data(data)
         if len(processed) > 0:
-            signal = np.abs(np.array(processed) - 500)
+            signal = np.abs(np.array(processed) - 495)
             result = compute_fn(signal, **compute_kwargs)
             shared_value.value = float(np.mean(result))  # ensure single float
 
@@ -37,10 +37,10 @@ def running_mean(data, window_size):
 
 
 ### SET SOME VARIABLES ###
-cport = "COM3"  # set the correct port before you run it
+cport = "/dev/cu.usbserial-DM8B349K"  # set the correct port before you run it
 inputBufferSize = 2000  # keep between 2000-20000
-movementThreshold = 24  # start with 1 std above running mean
-playerPaddle = 200  # refers to paddle size, default is 100
+movementThreshold = 80  # start with 1 std above running mean
+playerPaddle = 40  # refers to paddle size, default is 100
 cpuPlayStyle = "following"  # options are 'following' or 'random'
 game_choice = "flappy"  # Choose your game! Options are "flappy" or "pong"
 use_emg = True

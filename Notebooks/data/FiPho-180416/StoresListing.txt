@@ -1,0 +1,32 @@
+Experiment: FiPho
+Subject: 21
+User: User
+Date: 04/16/2018
+Time: 19:03:32
+
+ObjectID: RZn(1) - RZn Processor
+ StoreID: PtAB
+
+ObjectID: FibPho1 - Fiber Photometry
+ StoreID: 4054
+ StoreID: 4654
+ StoreID: Fi1r
+ StoreID: Fi1i
+
+ObjectID: eStim2 - Electrical Stimulation
+ StoreID: Sgn/
+ StoreID: eS2p
+ StoreID: eS2r
+
+
+Flat Listing:
+StoreID  Gizmo/Hal
+4054     FibPho1
+4654     FibPho1
+eS2p     eStim2
+eS2r     eStim2
+Fi1i     FibPho1
+Fi1r     FibPho1
+PtAB     RZn(1)
+Sgn/     eStim2
+

@@ -1,0 +1,32 @@
+Experiment: DataExport
+Subject: Algernon
+User: MrTDT
+Date: 03/08/2018
+Time: 1:03:54pm
+
+ObjectID: RZn(1) - RZn Processor
+ StoreID: PC0/
+
+ObjectID: NPro1 - Neural Stream Processor
+ StoreID: LFP1
+
+ObjectID: Neu1 - PCA Spike Sorting
+ StoreID: pNe1
+ StoreID: eNe1
+
+ObjectID: Wave1 - Stream Data Storage
+ StoreID: Wav1
+
+ObjectID: PulseGen1 - Pulse Generator
+ StoreID: Pu1e
+
+
+Flat Listing:
+StoreID  Gizmo/Hal
+eNe1     Neu1
+LFP1     NPro1
+PC0/     RZn(1)
+pNe1     Neu1
+Pu1e     PulseGen1
+Wav1     Wave1
+
